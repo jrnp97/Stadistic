@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="860da9bd-0631-45ad-a514-668adee22dba" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ML/finalized_model.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap10_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap10_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap10_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap10_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap11_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap12_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap12_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap12_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap12_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap12_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap13_detection_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap14_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap15_detection_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap16_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap16_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap16_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap16_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap16_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap17_detection_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap18_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap18_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap18_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap18_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap18_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap19_detection_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap1_detection_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap20_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap21_detection_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap23_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap23_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap23_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap23_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap23_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap24_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap24_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap24_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap24_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap24_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap25_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap25_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap2_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap2_detection_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap3_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap6_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap6_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap6_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap6_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap6_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap7_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap8_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap9_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap9_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap9_detection_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap9_detection_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/detections/cap9_detection_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/examples/proof_detection_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/examples/proof_detection_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/photos/cap9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/proof.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/proof2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/1000_asdiasnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/100_adn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/200_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/500_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training/500_asda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_aaaee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_adnad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_akmdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_asdadmc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_asdiasnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_dasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_fasfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_ffa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_jsakdnak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_kin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_ndn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_nsadjna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_sada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/1000_sadna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_aaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_adn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_adsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_and.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_andja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asdl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asdnasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_askd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asnda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asndaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_asndi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_das.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_kj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_lkk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_lmma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_mlm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_mloa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_mmm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_naa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sadasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sdmaks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/100_sknd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_adnad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_adsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_ajnsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_amskamd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_and.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_andjasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_ansd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asdnad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_askdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asnda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asndasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_asndiand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_dabd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_dmak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_kmka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_nasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_nvnv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_osad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_sada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_sadnja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_sajdaod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/200_sdad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_aaaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_adabd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_and.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_andna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asdasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asdmk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asdnak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_askmd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asnda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asndaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asndaaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_asndja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_damsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_gfg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_knadn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/500_ndad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_abba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_adnad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_almsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asdaaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asdam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asdasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asdasdm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asdnas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_askdnkad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asmd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asmdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asndas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asndasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_asndj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_dd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_najdnja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_ndajsnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_sadasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_sandasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_sandj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_sf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/training_examples/50_sfsa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VA/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/VA/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VA/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/VA/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VA/makeTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/VA/makeTraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cap1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/photos/cap1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cap2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/photos/cap2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cap3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/photos/cap3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cap4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/photos/cap4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cap5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/photos/cap5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap1_detection_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap1_detection_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_147.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap2_detection_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_163.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap2_detection_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_166.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap2_detection_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_168.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap2_detection_86.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap2_detection_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap3_detection_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap3_detection_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_55.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_61.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_63.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_65.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap4_detection_67.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap4_detection_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap5_detection_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap5_detection_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap5_detection_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap5_detection_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/detections/cap5_detection_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/detections/cap5_detection_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_examples/200_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/training_examples/500_asd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_examples/200_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/training_examples/1000_asd.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vision$main.coverage" NAME="main Coverage Results" MODIFIED="1528261542221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML" />
+    <SUITE FILE_PATH="coverage/vision$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1528266623694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VA" />
+    <SUITE FILE_PATH="coverage/vision$vision.coverage" NAME="vision Coverage Results" MODIFIED="1528256537501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VA/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="45" column="76" lean-forward="true" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VA/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>detections</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>dst</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Notes" />
+        <option value="$PROJECT_DIR$/VA/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/ML/functions.py" />
+        <option value="$PROJECT_DIR$/VA/makeTraining.py" />
+        <option value="$PROJECT_DIR$/ML/main.py" />
+        <option value="$PROJECT_DIR$/ML/training.py" />
+        <option value="$PROJECT_DIR$/VA/main.py" />
+        <option value="$PROJECT_DIR$/VA/functions.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="39" />
+    <option name="y" value="25" />
+    <option name="width" value="1327" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vision" type="462c0819:PsiDirectoryNode" />
+              <item name="VA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VA" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VA/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="vision" type="PythonConfigurationType" factoryName="Python">
+      <module name="vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VA/makeTraining.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.vision" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="860da9bd-0631-45ad-a514-668adee22dba" name="Default" comment="" />
+      <created>1527762915217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527762915217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="39" y="25" width="1327" height="743" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" weight="0.52300614" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.31967214" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32822084" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.38650307" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4924357" weight="0.45737705" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.15534739" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49517685" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.8056872" weight="0.7837627" />
+      <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.17549168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42131147" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903227" />
+      <window_info anchor="right" id="Data View" order="5" weight="0.23942599" />
+      <window_info anchor="right" x="0" y="0" width="281" height="543" id="Documentation" order="6" sideWeight="0.4637224" side_tool="true" weight="0.32943013" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ML/training.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/makeTraining.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/main.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/functions.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VA/functions.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>plt.imshow(img)
+plt.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plt.plot(img)
+plt.show()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plot_detections(img, valid)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum(y_pred)[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum(y_pred)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.listdir(src)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.join(photos, img)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.abspath(img)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>y.transpose()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>MLPClassifier(activation='relu', alpha=1e-05, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>os.path.join(training_examples, image)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cv2.GaussianBlur(im, (5,5), 0)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cv2.blur(im, (5,5))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(im)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>src+img</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>im = cv2.imread(src+img)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cv2.imread(src+img)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>im.witdh</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/VA/makeTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/functions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+          <folding>
+            <element signature="e#73#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/makeTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#73#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/makeTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/makeTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda3/envs/vision/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/VA/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widths.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/makeTraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#73#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/functions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/projectman/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VA/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="45" column="76" lean-forward="true" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

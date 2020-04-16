@@ -1,0 +1,27 @@
+# Coins counter #
+
+## Calculate estimate polynom with approxPoly function
+
+```
+epsilon = 0.01*cv2.arcLength(count, True)
+aprox = cv2.approxPolyDP(count, epsilon, True)
+img = cv2.drawContours(img, [aprox], 0, (255, 0, 255), 3)
+```
+
+# The Canny Detector
+
+```
+img = cv2.imread('data/all_more.jpg', 0)
+edges = cv2.Canny(img,100,200)
+
+plt.subplot(121),plt.imshow(img,cmap = 'gray')
+plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+plt.subplot(122),plt.imshow(edges,cmap = 'gray')
+plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+
+plt.show()
+```
+
+# Scaling
+
+![alt-text]("imgs/cal_w_y_h.png")
